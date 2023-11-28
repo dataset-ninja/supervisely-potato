@@ -63,7 +63,7 @@ BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = None
-AUTHORS: Optional[List[str]] = None
+AUTHORS: Optional[List[str]] = ["Supervisely"]
 AUTHORS_CONTACTS: Optional[List[str]] = ["https://supervisely.com/"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Supervisely"

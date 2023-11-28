@@ -2,7 +2,7 @@ If you make use of the Supervisely Potatoes data, please cite the following refe
 
 ``` bibtex 
 @dataset{Supervisely Potatoes,
-  author={},
+  author={Supervisely},
   title={Supervisely Potatoes Dataset for Crops and Weed Segmentation},
   year={2023},
   url={https://supervisely.com/blog/train-a-model-with-62-labeled-images-hrda-semi-supervised/}

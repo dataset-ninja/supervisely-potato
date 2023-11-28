@@ -71,7 +71,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://supervisely.com/"
 
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
-SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = None
+SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"field IDs": ["113", "114", "116"]}
 TAGS: Optional[List[str]] = None
 
 

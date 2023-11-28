@@ -44,7 +44,7 @@ HOMEPAGE_URL: str = (
 PREVIEW_IMAGE_ID: int = 9198918
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
-GITHUB_URL: str = "https://github.com/dataset-ninja/supervisely-hrda-plants-demo"
+GITHUB_URL: str = "https://github.com/dataset-ninja/supervisely-potatoes"
 # URL to GitHub repo on dataset ninja (e.g. "https://github.com/dataset-ninja/some-dataset")
 
 ##################################

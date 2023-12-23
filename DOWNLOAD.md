@@ -1,6 +1,8 @@
-Please visit dataset [homepage](https://supervisely.com/blog/trained-smarttool-plants/) to download the data. 
+Dataset **Supervisely Potatoes** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
-Afterward, you have the option to download it in the universal [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format) by utilizing the *dataset-tools* package:
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/m/Y/q3/movUlcwvrpUrAlf7l4yEbwx7XBUBJMLQ3sMt0VLg4CJNjS9y6T1yuIhbD3LiA5XgEZOzsgHJZOsEXGhoJxbdARskKOrpSLjBsAGUEZ9y9ERRrxviluLg4qfXJ6AZ.tar)
+
+As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
 pip install --upgrade dataset-tools
 ```
@@ -12,3 +14,5 @@ import dataset_tools as dtools
 dtools.download(dataset='Supervisely Potatoes', dst_dir='~/dataset-ninja/')
 ```
 Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
+The data in original format can be [downloaded here](https://supervisely.com/blog/trained-smarttool-plants/).

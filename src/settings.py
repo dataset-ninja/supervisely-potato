@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "Supervisely Potatoes"
 PROJECT_NAME_FULL: str = "Supervisely Potatoes Dataset for Crops and Weed Segmentation"
-HIDE_DATASET = False # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -31,14 +31,12 @@ CV_TASKS: List[CVTask] = [
 ]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
-RELEASE_DATE: Optional[str] = "2023-11-28"  # e.g. "YYYY-MM-DD"
+RELEASE_DATE: Optional[str] = "2023-12-22"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = None
 
 
-HOMEPAGE_URL: str = (
-    "https://supervisely.com/blog/train-a-model-with-62-labeled-images-hrda-semi-supervised/"
-)
+HOMEPAGE_URL: str = "https://supervisely.com/blog/trained-smarttool-plants/"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 9198918
@@ -50,7 +48,9 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/supervisely-potatoes"
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = None
+DOWNLOAD_ORIGINAL_URL: Optional[
+    Union[str, dict]
+] = "https://supervisely.com/blog/trained-smarttool-plants/"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None

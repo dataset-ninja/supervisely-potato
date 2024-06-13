@@ -36,7 +36,7 @@ if RELEASE_DATE is None:
     RELEASE_YEAR: int = None
 
 
-HOMEPAGE_URL: str = "https://supervisely.com/blog/trained-smarttool-plants/"
+HOMEPAGE_URL: str = None
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 9198918
@@ -59,7 +59,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = None
-BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
+BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = "https://supervisely.com/blog/trained-smarttool-plants/"
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = None
@@ -102,8 +102,7 @@ def get_settings():
         "category": CATEGORY,
         "cv_tasks": CV_TASKS,
         "annotation_types": ANNOTATION_TYPES,
-        "release_year": RELEASE_YEAR,
-        "homepage_url": HOMEPAGE_URL,
+        "release_year": RELEASE_YEAR,        
         "preview_image_id": PREVIEW_IMAGE_ID,
         "github_url": GITHUB_URL,
     }
@@ -114,6 +113,7 @@ def get_settings():
     settings["release_date"] = RELEASE_DATE
     settings["download_original_url"] = DOWNLOAD_ORIGINAL_URL
     settings["class2color"] = CLASS2COLOR
+    settings["homepage_url"] = HOMEPAGE_URL
     settings["paper"] = PAPER
     settings["blog"] = BLOGPOST
     settings["repository"] = REPOSITORY

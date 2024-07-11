@@ -25,9 +25,7 @@ APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agricultural(i
 CATEGORY: Category = Category.Agriculture(featured=True)
 
 CV_TASKS: List[CVTask] = [
-    CVTask.InstanceSegmentation(),
-    CVTask.SemanticSegmentation(),
-    CVTask.ObjectDetection(),
+    CVTask.WeaklySupervisedLearning(),
 ]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 

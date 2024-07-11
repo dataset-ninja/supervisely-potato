@@ -1,4 +1,4 @@
-**Supervisely Potatoes Dataset for Crops and Weed Segmentation** is a dataset for instance segmentation, semantic segmentation, and object detection tasks. Possible applications of the dataset could be in the agricultural industry. 
+**Supervisely Potatoes Dataset for Crops and Weed Segmentation** is a dataset for a weakly supervised learning task. Possible applications of the dataset could be in the agricultural industry. 
 
 The dataset consists of 1055 images with 3971 labeled objects belonging to 2 different classes including *crop* and *weed*.
 

@@ -1,6 +1,6 @@
 Dataset **Supervisely Potatoes** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/pt4dz9jl714omhd6znhhf/supervisely-potatoes-DatasetNinja.tar?rlkey=j1njkfd4gcbd0f6u6vi1tiosy&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzMwNzVfU3VwZXJ2aXNlbHkgUG90YXRvZXMvc3VwZXJ2aXNlbHktcG90YXRvZXMtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiOS9yemR2ZlVpN25DM3NVaUtVcDdRamI2UVlIcHJhV1NNOGxZUlhER2lHQT0ifQ==)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
